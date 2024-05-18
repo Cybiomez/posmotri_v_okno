@@ -165,7 +165,7 @@ ol {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  gap: 25px;
+  gap: 20px;
 }
 
 .title {
@@ -224,6 +224,8 @@ ol {
 }
 
 .content__video-card-description {
+  font-weight: 400;
+  font-size: 18px;
   line-height: 16.2px;
 }
 
