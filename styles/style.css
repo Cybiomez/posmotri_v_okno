@@ -304,8 +304,7 @@ fieldset {
 }
 
 .search-form__label:has(:focus-visible) {
-  border: 1px solid #fff;
-  padding: 0 1px;
+  outline: 1px solid #fff;
 }
 
 .button:focus {
@@ -315,7 +314,7 @@ fieldset {
 }
 
 .button:focus-visible {
-  border: 3px double #fff;
+  outline: 2px double #fff;
 }
 
 .content__card-link:focus {
