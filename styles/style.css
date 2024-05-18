@@ -128,6 +128,7 @@ ol {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 400;
   font-size: 18px;
+  color: #fff;
   line-height: 21.6px;
   background-color: transparent;
   inline-size: 225px;
@@ -288,16 +289,13 @@ fieldset {
 
 .content__list-item:hover {
   text-decoration: underline;
+  text-underline-offset: 0.2rem;
+  text-decoration-thickness: 1px;
 }
 
 /*--- :focus ---*/
 
 .search-form__textfield:focus {
-  outline: none;
-  appearance: none;
-}
-
-.search-form__textfield:focus{
   border: 0;
   outline: none;
   appearance: none;
